@@ -1,0 +1,13 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
+pc,string (hex),0x00000000,0x00000004,0x00000008,No,Program counter byte address of the instruction (0x00000000 to 0x000007CC)
+instruction_hex,string (hex),0xAF2D799A,0x41E01F77,0x26F4A4EF,No,32-bit instruction word in hexadecimal representation
+opcode,categorical,LW,SW,SUB,No,"RISC-V instruction mnemonic (ADD, SUB, AND, OR, XOR, LUI, LW, SW, BEQ, JAL)"
+rs1,int64,27,25,10,No,Source register 1 index (0-31)
+rs2,int64,14,7,13,No,Source register 2 index (0-31)
+rd,int64,6,3,5,No,Destination register index (0-31)
+cycles_taken,int64,1,1,1,No,Execution latency in clock cycles (1-5)
+branch_taken,int64 (binary),0,0,0,No,"Branch taken indicator (1 = taken, 0 = not taken)"
+stall,int64 (binary),0,0,0,No,"Pipeline stall indicator (1 = stalled, 0 = no stall)"
+pc_decimal,int64 (derived),0,4,8,No,Integer byte offset converted from hexadecimal pc
+instruction_uint32,int64 (derived),2938993050,1105207159,653567215,No,Unsigned 32-bit integer value of instruction_hex
+instr_category,categorical (derived),Memory,Memory,ALU,No,"Instruction functional class: ALU, Memory, or Control"

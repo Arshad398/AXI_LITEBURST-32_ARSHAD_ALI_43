@@ -1,0 +1,364 @@
+﻿=== AXI-LiteBurst-32 Regression Log ===
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_address_decoder: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_address_decoder.v:29: $finish called at 7000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_ar_channel: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_ar_channel.v:33: $finish called at 36000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_aw_channel: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_aw_channel.v:36: $finish called at 36000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_b_channel: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_b_channel.v:28: $finish called at 56000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_liteburst32_param: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_liteburst32_param.v:76: $finish called at 326000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+VCD info: dumpfile d:/hcl project axi liteburst/sim/tb_axi_liteburst32_top.vcd opened for output.
+COVERAGE SUMMARY: TC-01..25,27 executed (TC-26 in tb_axi_liteburst32_param)
+tb_axi_liteburst32_top: PASS (checks=196 errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_liteburst32_top.v:441: $finish called at 9230000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_r_channel: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_r_channel.v:31: $finish called at 56000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_slave_fsm: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_slave_fsm.v:47: $finish called at 31000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_axi_w_channel: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_axi_w_channel.v:28: $finish called at 36000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_burst_controller: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_burst_controller.v:50: $finish called at 116000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_low_power_controller: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_low_power_controller.v:27: $finish called at 126000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_read_data_path: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_read_data_path.v:17: $finish called at 2000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_reg_mem_bank: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_reg_mem_bank.v:37: $finish called at 61000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_response_generator: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_response_generator.v:20: $finish called at 5000 (1ps)
+iverilog.exe : warning: Some modules have no timescale. This may cause
+At D:\hcl project axi liteburst\scripts\run_regression.ps1:17 char:16
++ ...  $compOut = & $iv -Wall -g2005 -s $name -o $outVvp $rtl $tb.FullName  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (warning: Some m... This may cause:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+       : confusing timing results.	Affected modules are:
+       :   -- module address_decoder declared here: D:\hcl project axi liteburst\rtl\address_decoder.v:7
+       :   -- module axi_ar_channel declared here: D:\hcl project axi liteburst\rtl\axi_ar_channel.v:7
+       :   -- module axi_aw_channel declared here: D:\hcl project axi liteburst\rtl\axi_aw_channel.v:7
+       :   -- module axi_b_channel declared here: D:\hcl project axi liteburst\rtl\axi_b_channel.v:7
+       :   -- module axi_liteburst32_top declared here: D:\hcl project axi liteburst\rtl\axi_liteburst32_top.v:9
+       :   -- module axi_r_channel declared here: D:\hcl project axi liteburst\rtl\axi_r_channel.v:7
+       :   -- module axi_slave_fsm declared here: D:\hcl project axi liteburst\rtl\axi_slave_fsm.v:8
+       :   -- module axi_w_channel declared here: D:\hcl project axi liteburst\rtl\axi_w_channel.v:7
+       :   -- module burst_controller declared here: D:\hcl project axi liteburst\rtl\burst_controller.v:9
+       :   -- module low_power_controller declared here: D:\hcl project axi liteburst\rtl\low_power_controller.v:8
+       :   -- module read_data_path declared here: D:\hcl project axi liteburst\rtl\read_data_path.v:6
+       :   -- module reg_mem_bank declared here: D:\hcl project axi liteburst\rtl\reg_mem_bank.v:7
+       :   -- module response_generator declared here: D:\hcl project axi liteburst\rtl\response_generator.v:7
+       :   -- module write_data_path declared here: D:\hcl project axi liteburst\rtl\write_data_path.v:6
+tb_write_data_path: PASS (errors=0)
+D:\hcl project axi liteburst\tb\tb_write_data_path.v:22: $finish called at 2000 (1ps)
+REGRESSION TOTAL: passed=15 failed=0
